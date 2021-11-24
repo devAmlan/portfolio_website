@@ -49,14 +49,14 @@ b{
 .start
 {
     padding-left:70px;
-    padding-top:70px;
+   margin-top:70px;
 }
 .start h2{
     font-size:60px;
 }
 .start img{
-  border: 2px solid none;
-  border-radius:120px;
+  border:none;
+  border-radius:50%;
   width:200px;
   height:200px;
 }
