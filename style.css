@@ -48,12 +48,10 @@ b{
 }
 .start
 {
-    padding-left:70px;
+   padding-left:70px;
    margin-top:70px;
 }
-.start h2{
-    font-size:60px;
-}
+
 .start img{
   border:none;
   border-radius:50%;
@@ -76,6 +74,44 @@ b{
     color:#2c3e50;
     color:#fff;
 }
+.skills h3{
+    text-align:center;
+    color:#F4D03F;
+    font-family: 'Cabin', sans-serif; 
+    font-size:28px;
+}
+.allskills{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.allskills .skill{
+    width:130px;
+    height:130px;
+    border:none;
+    border-radius:6px;
+    background-color:#252730;
+    text-align:center;
+    margin:10px;
+}
+.allskills .skill h5{
+    font-size:15px;
+    color:#fff;
+    font-family: 'Cabin', sans-serif;
+}
+
+.allskills .fab{
+    color:#9d86e9;
+    font-size:35px;
+    margin:15px;
+}
+.allskills .fas{
+    color:#9d86e9;
+    font-size:35px;
+    margin:15px;
+}
+
 #works
 {
    display: flex;
@@ -104,13 +140,18 @@ b{
     font-size:15px;
     margin:5px;
 }
-
-.fas
+.card .fa-github{
+   font-size:25px;
+   color:#B9345A;
+   cursor: pointer;
+}
+.card .fas
 {
     font-size:25px;
     padding-top:25px;
     margin-left:20px;
     color:#B9345A;
+    cursor: pointer;
 }
 #workheading
 {
@@ -160,9 +201,10 @@ footer
   text-align: center;
   margin-top:300px;
 }
-footer h2{
+footer p{
     font-family: 'Cabin', sans-serif;
     color:#5B34DA;
+    font-size:19px;
 }
 .fa-github-alt{
     color:#9d86e9;
