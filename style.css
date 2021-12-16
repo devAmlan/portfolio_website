@@ -124,9 +124,10 @@ b{
     min-height:200px;
     width:370px;
     background-color:#000000;
-    border:2px solid #5B34DA;
+    border:1.5px solid #5B34DA;
     margin:20px;
     border-radius:7px;
+    box-shadow: 3px 5px #5B34DA;
 }
 .card h3{
     text-align: center;
