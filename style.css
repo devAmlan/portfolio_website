@@ -23,25 +23,6 @@ body{
     font-family: 'Cabin', sans-serif;
     font-weight:900;
 }
-.make
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.make button{
-    height:50px;
-    width:200px;
-    background-color:#F4D03F;
-    box-shadow: 0 0 14px 0 #F4D03F;
-    color:#000000;
-    border: 2px solid #F4D03F;
-    font-size:15px;
-    font-weight:700;
-    font-family: 'Cabin', sans-serif; 
-    border-radius:5px;
-    cursor: pointer;
-}
 b{
     color:#B9345A;
     color:#9d86e9;
