@@ -7,6 +7,10 @@ body{
    background-color:#e6e7ee;
    background-color:#000000;
 }
+a{
+
+    color:#9d86e9;
+}
 .topnav{
     height:40px;
     padding: 20px;
@@ -160,7 +164,7 @@ b{
     margin:20px;
     border-radius:50%;
 }
-.fab
+.icons i
 {
     font-size:35px;
     margin-left:14px;
